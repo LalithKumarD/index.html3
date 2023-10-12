@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tash2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-color:white;
+            width: 100%;
+            height: 50px;
+        }
+        .navbar{
+            background-color:white;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+        }
+        .parta h2 select{
+            color: gray;
+        }
+        .parta{
+            background-color: white;
+            width: 40%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            color: gray;
+        }
+        .partb{
+            background-color:white;
+            width: 30%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            color: gray;
+        }
+        #select{
+            border: none;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        button{
+            background-color:royalblue;
+            width: 90px;
+            height: 40px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 20px;
+        }
+        .space{
+            background-color:white;
+            width: 100%;
+            height: 100px;
+        }
+        .work{
+            background-color:white;
+            width: 100%;
+            height: 500px;
+            display: flex;
+           justify-content: center;
+        }
+        .content{
+            background-color:white;
+            width: 60%;
+            height: 600px;
+            text-align: center;
+        }
+        .ima{
+            background-color:white;
+            width: 40%;
+            height: 500px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        .content p{
+            font-size: 70px;
+        }
+        .signin{
+            margin-top: 30px;
+        }
+        .signin input{
+            width: 400px;
+            height: 50px;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px;
+            border-color: gray;
+           
+           }
+           .signin button{
+            width: 400px;
+            height: 50px;
+            margin: 10px;
+            border-color: gray;
+           }
+           .ima p{
+            padding-top: 20px;
+            font-size: 20px;
+            text-align: left;
+            padding-left: 40px;
+            color: gray;
+           }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main"></div>
+        <div class="navbar">
+            <div class="parta">
+                <h1 style="font-size: 35px; color: black;">Startup3</h1>
+                <select name="Products" id="select" style="color: gray;">
+                    <option>Products</option>
+                    <option>A</option>
+                    <option>B</option>
+                </select>
+                <h2>Pricing</h2>
+                <h2>Community</h2>
+            </div>
+            <div class="partb">
+                <h2>API</h2>
+                <h2>Help</h2>
+                <h2>Login</h2>
+                <button>Sing Up</button>
+            </div>
+        </div>
+        <div class="space"></div>
+    </section>
+    <section class="work">
+        <div class="content">
+            <p>A high-quality solution for<br>
+                 those who want a beautiful<br>
+                 startup website quickly<br>
+            </p>
+            <div class="signin">
+            <input type="search" placeholder="your email"><br>
+            <p></p>
+            <input type="search" placeholder="your password"><br>
+            <button>Sign in</button>
+            <h5 style="color: gray;">By signing up,you agree to the Terms od Service</h5>
+        </div>
+        </div>
+        <div class="ima">
+            <img src="./task2.png" alt="" style="width: 500px; height: 300px; border-radius: 10px;">
+            <p>We made it so beutiful ans simple. it<br>
+                combines landing,pages,blogs and <br> 
+                shop screens.it is definitely the tool you<br>
+                need in your collection!
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>
